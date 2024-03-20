@@ -2,17 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+h1 {
+    margin: 20px 0;
+    font-size: 45px;
+}
+
+img {
+    height: 150px;
+    border-radius: 100%;
+}
+
+/* 
 body {
-    /* margin: 0; */
-    padding: 10px;
+padding: 10px;
 }
 
 .App {}
 
 .mainContainer {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 form {
@@ -21,9 +28,6 @@ form {
 }
 
 h1 {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     margin: 20px 0;
     font-size: 45px;
 }
@@ -33,10 +37,10 @@ button {
     padding: 5px 20px;
     color: #ffffff;
     background-color: #335185;
-    /* display: block; */
-    /* margin: auto; */
 }
 
 #text-input {
     border-style: 12px #465ca3;
 }
+
+*/

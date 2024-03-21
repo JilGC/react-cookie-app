@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    padding: 10px;
+}
+
 h1 {
     margin: 20px 0;
     font-size: 45px;

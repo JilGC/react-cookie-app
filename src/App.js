@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import './App.css';
 
 
@@ -23,6 +23,15 @@ export function About() {
         <Link to="/contact">Contact Us</Link>
       </nav>
       <h1>About us</h1>
+      <Outlet />
+    </div>
+  )
+}
+
+export function History() {
+  return (
+    <div>
+      <h1>This is history</h1>
     </div>
   )
 }

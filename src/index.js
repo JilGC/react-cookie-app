@@ -5,6 +5,7 @@ import {
   Route,
   Routes
 } from "react-router-dom";
+
 import { About, App, Contact } from './App';
 
 ReactDOM.render(
@@ -12,8 +13,13 @@ ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/about" element={<About />} />
+
+      <Route path="/about" element={<About />}>
+        {/* <Route path="/history" element={<History />} /> */}
+      </Route>
+
       <Route path="/contact" element={<Contact />} />
+
     </Routes>
   </BrowserRouter>,
 

@@ -1,0 +1,12 @@
+properties/name => Main jil={properties/name} => function Main(properties) {properties.name}
+
+
+dishes
+  ||
+dishObj = dishes
+  ||
+dishes={dishObj}
+  ||
+Main(dishes)
+  ||
+dishes.map({dish})
